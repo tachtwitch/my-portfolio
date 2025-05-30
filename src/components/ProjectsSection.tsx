@@ -37,7 +37,7 @@ export default function ProjectsSection() {
                       href={project.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className=" flex items-center text-sm text-muted-foreground"
+                      className=" flex items-center text-sm text-red-500"
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                     >
