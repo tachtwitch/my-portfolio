@@ -30,10 +30,24 @@ export default function ProjectsSection() {
                   <CardTitle className="text-center md:text-left group-hover:text-purple-500 transition-colors duration-300">
                     {project.title}
                   </CardTitle>
+                  <div className="flex flex-row w-full items-center justify-between">
+                    <p className="p-2 text-center md:text-left transition-colors duration-300 text-muted-foreground">{project.duration}</p>
+                    { project.url == undefined ? "" : 
+                    <motion.a
+                      href={project.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className=" flex items-center text-sm text-muted-foreground"
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                    >
+                      View live 🔗
+                    </motion.a>}
+                  </div>
                 </CardHeader>
-                <CardContent className="flex-grow">
+                <CardContent className="flex-grow p-4">
                   <ul className="list-disc ml-4 space-y-1 text-sm group-hover:space-y-2 transition-all duration-300">
-                    {project.description.map((desc, i) => (
+                    {project.description?.map((desc, i) => (
                       <motion.li
                         key={i}
                         className="text-muted-foreground"

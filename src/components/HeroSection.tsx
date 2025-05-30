@@ -123,15 +123,14 @@ export default function HeroSection() {
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
               🚀 Passionate Computer scientist with a versatile skill set
-              spanning multiple domains. I thrive on solving complex challenges
-              across different platforms and environments, adapting quickly to
+              spanning multiple domains. I love learning new things and thrive at adapting quickly to
               new technologies and methodologies. I'm excited to explore various fields,
-               including Artificial Intelligence. My holistic approach combines
+               including Artificial Intelligence, cryptography and computer architecture. My holistic approach combines
               technical expertise with creative problem-solving, allowing me to
               develop solutions that are both innovative and practical. I'm
               driven by continuous learning and a commitment to excellence,
               whether working independently or collaborating with diverse teams
-              to create impactful, scalable solutions. Currently trying to move with the "AI Trend".
+              to create impactful, scalable solutions. I dont really publish all my projects and I'm also currently trying to move with the "AI Trend". I also play Chess.
             </p>
           </div>
         </MotionWrapper>

@@ -14,7 +14,8 @@ export const workExperience = [
     period: "December 2024 - January 2025",
     achievements: [
       "Built interactive Apps with jetpack Compose.",
-      "Implemented data storage and retrieval using SQLite and Room persistence library, achieving reduction in data retrieval time"
+      "Implemented data storage and retrieval using SQLite and Room persistence library, achieving reduction in data retrieval time",
+      "Worked with Android Notification library for send all types of notification"
     ],
   },
   {
@@ -23,7 +24,7 @@ export const workExperience = [
     position: "Backend Intern",
     period: "Feb 2025 - April 2025",
     achievements: [
-      "Developed robust APIs through coding tasks, consistently meeting deadlines within 3 months, which improved my development ability and improved my overall backend skill",
+      "Developed robust APIs(all on gitHub) through coding tasks, consistently meeting deadlines within 3 months, which improved my development ability and improved my overall backend skill",
       "Engineered an AI sales agent with a team of 3 within 1 month that identified business leads using Apollo Hunter, and RapidAPI with Java Spring boot",
       "Implemented CI/CD pipelines along with backend APIs within 3 months, enhancing deployment speed through effective team collaboration and adherence to standard git practices"
     ],
@@ -34,8 +35,7 @@ export const workExperience = [
     position: "Backend Developer",
     period: "April 2025 - May 2025",
     achievements: [
-      "Built interactive UIs with React.js, focusing on reusable components and performance optimization.",
-      "Implemented JavaScript-based features like user authentication and real-time updates.",
+      "Authored and standardized integration guidelines that streamlined communication processes between AI agents using Google A2A protocol",
     ],
   },
 ];
@@ -44,7 +44,7 @@ export const education = [
   {
     institution: "Bells University Of Technology",
     location: "Ota, Ogun State",
-    degree: "B Tech Computer Science",
+    degree: "BTech Computer Science",
     period: "Oct 2021 - Jul 2026",
   },
 ];
@@ -88,9 +88,10 @@ export const projects = [
   {
     title: "Identify",
     github: "null",
-    duration:"Nov 2024 - Present",
+    duration:"Nov 2024 - Present(abandoned till futher notice)",
     description: [
-      "An attendance app that will leveraging AI for facial authentication and goole maps for location verification.",
+      "An attendance app for students with biometric verification",
+      "will leverage AI for facial authentication and goole maps for location verification.",
       "Features will include live classes info, smartwatch integration for passkey auth and assignmment Hub.",
       "Building with Jetpack Compose, Supabase and SpringBoot.",
     ],
@@ -114,6 +115,19 @@ export const projects = [
       "Leveraged android notification system"
         ],
       },
+      {
+        title: "Scheduler App",
+        github: "https://github.com/tachtwitch/schedule",
+        duration:"Dec 2024 - Dec 2024",
+        url:"https://dami-schedule.netlify.app/",
+        description: [
+        "Next.js app scheduler",
+        "Built it to effevtively manage my dail activities",
+        "Features include task creation, task stopwatch, task deletion",
+        "Ui needs plenty of work...(will revisit)",
+        "Basically integrates Prisma ORM, PostgresDB and Next.js"
+          ],
+      }
 ];
 
 export const awards = [
