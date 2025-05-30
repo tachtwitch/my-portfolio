@@ -87,7 +87,6 @@ export const projects = [
   },
   {
     title: "Identify",
-    github: "null",
     duration:"Nov 2024 - Present(abandoned till futher notice)",
     description: [
       "An attendance app for students with biometric verification",

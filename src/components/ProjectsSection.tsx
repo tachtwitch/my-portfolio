@@ -32,7 +32,7 @@ export default function ProjectsSection() {
                   </CardTitle>
                   <div className="flex flex-row w-full items-center justify-between">
                     <p className="p-2 text-center md:text-left transition-colors duration-300 text-muted-foreground">{project.duration}</p>
-                    { project.url == undefined ? "" : 
+                    { project.url == undefined||null ? "" : 
                     <motion.a
                       href={project.url}
                       target="_blank"
@@ -62,6 +62,7 @@ export default function ProjectsSection() {
                   </ul>
                 </CardContent>
                 <CardFooter className="flex justify-center md:justify-start items-center border-t border-border/30 bg-gradient-to-r from-purple-500/5 to-pink-500/5">
+                  {project.github == undefined||null ? null : 
                   <motion.a
                     href={project.github}
                     target="_blank"
@@ -72,7 +73,7 @@ export default function ProjectsSection() {
                   >
                     <Github className="h-4 w-4 mr-2 group-hover/link:rotate-12 transition-transform duration-300" />
                     View on GitHub 🔗
-                  </motion.a>
+                  </motion.a>}
                 </CardFooter>
               </GlassCard>
             </MotionWrapper>
