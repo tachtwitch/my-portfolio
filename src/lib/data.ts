@@ -3,6 +3,7 @@ export const personalInfo = {
   location: "Ikorodu, Lagos",
   email: "tachtwitch@gmail.com",
   github: "https://github.com/tachtwitch",
+  githubII: "https://github.com/0x686579",
   linkedin: "https://www.linkedin.com/in/tachtwitch-97a3b4264",
 };
 
@@ -121,12 +122,45 @@ export const projects = [
         url:"https://dami-schedule.netlify.app/",
         description: [
         "Next.js app scheduler",
-        "Built it to effevtively manage my dail activities",
+        "Built it to effevtively manage my daily activities",
         "Features include task creation, task stopwatch, task deletion",
         "Ui needs plenty of work...(will revisit)",
         "Basically integrates Prisma ORM, PostgresDB and Next.js"
           ],
-      }
+      },
+      {
+        title: "Relay",
+        github: "https://github.com/0x686579/relay",
+        duration:"October 2026 - Present",
+        description: [
+        "a python ETL pipeline with exponential backoff and incremental loading ",
+        "Built it for getting started with python backend development",
+          ],
+      },      {
+        title: "COLCOMP",
+        github: "https://github.com/tachtwitch/colcomp",
+        duration:"March 2026 - Present",
+        description: [
+        "A full-stack semantic web application for managing academic enrollment and planning using ontology-based knowledge representation",
+        "Built it with Rust(Axum), Next.js, GraphDB and MongoDB",
+        "horned-owl: The absolute best Rust crate for parsing, validating, and working with OWL ontologies in memory.",
+        "axum + tokio: Perfect for a high-performance, async API layer.",
+        "reqwest: The right tool for talking to GraphDB’s SPARQL and Graph Store HTTP endpoints.",
+        "mongodb: A smart choice for keeping non-semantic application data (like user sessions, JWT auth, or UI preferences) separate from the ontology data.",
+        "Will revisit later to improve and build as a framework for ontology"
+          ],
+      },
+      {
+        title: "Onak Fitness",
+        github: "https://github.com/tachtwitch/onak-fitness",
+        duration:"May 2025 - June 2025",
+        url: "onak-fitness.vercel.app",
+        description: [
+        "A sample website I scrapped together for a job ",
+        "Built with Next.js, Tailwind css",
+          ],
+      },
+
 ];
 
 export const awards = [

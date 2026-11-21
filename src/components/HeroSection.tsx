@@ -48,7 +48,7 @@ export default function HeroSection() {
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Computer Scientist x developer 👨‍💻
+              Computer Scientist x Developer 👨‍💻
             </motion.p>
 
             <motion.div
@@ -84,6 +84,18 @@ export default function HeroSection() {
               >
                 <Github className="h-4 w-4 mr-2" />
                 🌟 GitHub
+              </motion.a>
+
+              <motion.a
+                href={personalInfo.githubII}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
+                variants={childVariants}
+                whileHover={{ scale: 1.05, color: "#4b5563" }}
+              >
+                <Github className="h-4 w-4 mr-2" />
+                🌟 GitHub II
               </motion.a>
 
               <motion.a
@@ -125,12 +137,12 @@ export default function HeroSection() {
               🚀 Passionate Computer scientist with a versatile skill set
               spanning multiple domains. I love learning new things and thrive at adapting quickly to
               new technologies and methodologies. I'm excited to explore various fields,
-               including Artificial Intelligence, cryptography and computer architecture. My holistic approach combines
+               including Artificial Intelligence, Cybersecurity, Cryptography and Computer architecture. My holistic approach combines
               technical expertise with creative problem-solving, allowing me to
               develop solutions that are both innovative and practical. I'm
               driven by continuous learning and a commitment to excellence,
               whether working independently or collaborating with diverse teams
-              to create impactful, scalable solutions. I dont really publish all my projects and I'm also currently trying to move with the "AI Trend". I also play Chess.
+              to create impactful, scalable solutions. I don't really publish all my projects and I'm also currently trying to move with the "AI Trend".I also play Chess.
             </p>
           </div>
         </MotionWrapper>
